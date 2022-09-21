@@ -88,8 +88,7 @@ function buildCharts(sample) {
     var barLayout = {
       title: "<b>Top 10 Bacteria Cultures Found</b>",
       paper_bgcolor: "#b380b3",
-      plot_bgcolor: "#e2cfe2",
-      bordercolor: "violet"
+      plot_bgcolor: "#e2cfe2"
     };
 
     // 10. Use Plotly to plot the data with the layout. 
@@ -165,12 +164,9 @@ function buildCharts(sample) {
 
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
-      //autosize: true,
+      autosize: true,
       paper_bgcolor: "#b380b3",
-      plot_bgcolor: "#e2cfe2",
-      width: 460,
-      height: 400,
-      margin: {t: 0, b: 0}
+      plot_bgcolor: "#e2cfe2"
     };
 
     // 6. Use Plotly to plot the gauge data and layout.
