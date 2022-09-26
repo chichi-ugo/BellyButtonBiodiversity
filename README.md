@@ -1,4 +1,5 @@
 # BellyButtonBiodiversity
+Exploring Data Visualization using JavaScript and HTML
 
 ## Purpose
 In an effort to uncover a bacterial species that synthesizes a protein that closely resembles the flavor of beef, a study was conducted in which samples were collected from participants navels where the bacteria was then cultured and documented. 
